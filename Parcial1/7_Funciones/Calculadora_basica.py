@@ -27,6 +27,9 @@ while opcion:
 if opcion!=5:
  solicitarNumeros()
  print(operacionAritmetica(n1,n2,opcion))
+ print("Oprima cualquier tacla para continuar")
+ input()
 else:  
      opcion=False    
 print ("Terminaste la ejecucion del SW:3")
+
