@@ -8,6 +8,7 @@ class Auto:
         self.color = color
         self.nif = nif
 
+
     def insertar(self):
         conexion = ConexionDB().conectar()
         try:
